@@ -1,8 +1,9 @@
 .container__big-card{
 
-  margin-left: 20px;
+  margin-left: 200px;
   margin-right: 20px;
   margin-bottom: 40px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,9 +13,11 @@
     width: 200px;
     margin-bottom: 0;
   }
+
   @media(min-width: 1000px) {
     width: 400px;
   }
+  
 }
 
 .big-card__title > h1  {
